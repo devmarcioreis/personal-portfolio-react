@@ -70,10 +70,10 @@ header {
         left: calc(50% - 11rem);
     }
     .header__socials {
-        bottom: 7rem;
+        bottom: 9rem;
     }
     .scroll__down {
-        bottom: 3.5rem;
+        bottom: 6rem;
         right: -3.2rem;
     }
 }
