@@ -16,7 +16,6 @@ const Header = () => {
         <div className="profile">
           <img src={Profile} alt="Profile" />
         </div>
-        <a href="#contact" className='scroll__down'>Descer página</a>
       </div>
     </header>
   )

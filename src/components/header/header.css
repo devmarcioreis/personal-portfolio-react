@@ -19,7 +19,7 @@ header {
     font-size: 1.2rem;
 }
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -51,29 +51,21 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 17rem);
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
-.scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 10rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: .9rem;
-    letter-spacing: .1rem;
-}
+
 
 /*==========Media Query Mobile==========*/
 @media (max-width: 768px) {
+    header {
+        padding-top: 2rem;
+    }
     .profile {
-        width: 22rem;
-        left: calc(50% - 11rem);
+        width: 24rem;
+        margin: .3rem 4rem;
     }
     .header__socials {
-        bottom: 9rem;
+        display: none;
     }
-    .scroll__down {
-        bottom: 6rem;
-        right: -3.2rem;
-    }
+
 }

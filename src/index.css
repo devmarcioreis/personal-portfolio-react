@@ -19,6 +19,8 @@
     --font-principal: 'Rubik', sans-serif;
     --font-logo: 'Nunito', sans-serif;
     --transition: all 400ms ease;
+    --shadow: inset -30px 30px 30px #010c1504, inset -1px 5px 30px #2195f338;
+    --color-active: #2195f338;
 }
 
 /*==========Reset CSS==========*/
@@ -57,6 +59,7 @@ h1 {
 }
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 section > h2, section h5 {
     text-align: center;
