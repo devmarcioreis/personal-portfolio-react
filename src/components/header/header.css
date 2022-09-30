@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 3.5rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
 .header__container {
@@ -29,10 +29,10 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    position: absolute;
     font-size: 1.5rem;
-    left: 0;
-    bottom: 10rem;
+    position: absolute;
+    left: 1rem;
+    top: 20rem;
 }
 .header__socials::before {
     content: '';
