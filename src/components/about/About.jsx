@@ -35,9 +35,8 @@ const About = () => {
               <small>+70 Projetos</small>
             </article>
           </div>
-          <p>Tenho paixão por tecnologia, e ela me faz ter vontade de trabalhar e estudar cada vez mais para solucionar os mais variados tipos de problemas na área de desenvolvimento.</p>
-          <p>Seguir este caminho tem sido desafiador e me faz querer sempre o melhor para meus clientes. Dar uma solução inovadora para seus problemas e suas necessidades é o que me motiva, além de aprender, claro!</p>
-          <p>Estou sempre estudando e aprendendo, e no momento estudo e trabalho com: HTML, CSS, JavaScript, React e Angular.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, quam incidunt quisquam perspiciatis delectus at quibusdam eos maxime deleniti commodi aliquam rem illum molestias nesciunt, libero, cum consectetur fugit esse.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur id, nam debitis voluptatem cum itaque illo dignissimos labore quam omnis quidem doloremque vitae cumque architecto repellat adipisci sit distinctio. Fuga!</p>
           <a href="#contact" className='btn btn-primary'>Contate-me</a>
         </div>
       </div>
