@@ -1,0 +1,52 @@
+.services__container {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.service {
+    border-radius: 2rem;
+    border-bottom: 2px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+}
+.service:hover {
+    cursor: default;
+    transform: scale(1.05);
+}
+.service__head {
+    border-radius: 2rem;
+    border-top: 2px solid var(--color-primary);
+    padding: 1rem;
+    transition: var(--transition);
+}
+.service__head h3 {
+    color: var(--color-white);
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+.service__list {
+    padding: 2rem;
+}
+.service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .8rem;
+}
+.service__list-icon {
+    color: var(--color-primary);
+    margin-top: .3rem;
+}
+.service__list p {
+   font-size: .9rem; 
+   color: var(--color-light);
+}
+
+/*==========Media Query Tablet==========*/
+@media (max-width: 1024px) {
+    .services__container {
+        flex-direction: column;
+    }
+}

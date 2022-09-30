@@ -66,14 +66,6 @@ const Services = () => {
               < GiCheckMark className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
-            <li>
-              < GiCheckMark className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              < GiCheckMark className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
           </ul>
         </article>
         <article className='service'>
