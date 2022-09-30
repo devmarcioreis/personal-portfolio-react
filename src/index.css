@@ -21,6 +21,10 @@
     --transition: all 400ms ease;
     --shadow: inset -30px 30px 30px #010c1504, inset -1px 5px 30px #2195f338;
     --color-active: #2195f338;
+    
+    --color-shadow: inset 3px 1px 1px var(--color-black), 
+    0px 0px 10px rgba(255, 255, 255, 0.027), 
+    5px 2px 1px rgba(255, 249, 249, 0.808);
 }
 
 /*==========Reset CSS==========*/
