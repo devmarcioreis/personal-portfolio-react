@@ -3,8 +3,20 @@ import './contact.css'
 import { MdEmail } from 'react-icons/md'
 import { RiWhatsappFill } from 'react-icons/ri'
 import { BsTelegram } from 'react-icons/bs'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xlnd362', 'template_9kwvc1m', form.current, 'Zsn6MiCroxal55rla')
+    
+    e.target.reset()
+  };
+
   return (
     
     <section id='contact'>
@@ -29,7 +41,7 @@ const Contact = () => {
             <h5>marcioreissantos</h5>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Nome' required />
           <input type="email" name='email' placeholder='Email' required />
           <textarea name="messege" rows="7" placeholder='Mensagem' required></textarea>
