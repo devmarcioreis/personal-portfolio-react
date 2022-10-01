@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     
     <footer>
-      <a href="https://devmarcioreis.github.io/Portfolio/" target="_blank" className='footer__logo'>M:)REISS</a>
+      <a href="https://devmarcioreis.github.io/Portfolio/" target="_blank" className='footer__logo'>M<span>:)</span>REISS</a>
       <ul className='links'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">Sobre</a></li>

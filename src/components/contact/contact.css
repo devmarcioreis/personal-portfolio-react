@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: 30% 60%;
     gap: 4rem;
-    padding-bottom: 5rem;
 }
 .contact__options {
     display: flex;
