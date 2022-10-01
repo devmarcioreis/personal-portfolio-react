@@ -14,15 +14,18 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className='contact__option'>
-            <h4><MdEmail /> Email</h4>
+            <MdEmail className='contact__option-icon'/>
+            <h4>Email</h4>
             <h5>dev.marcioreis@gmail.com</h5>
           </article>
           <article className='contact__option'>
-            <h4><RiWhatsappFill /> Whatsapp</h4>
+            <RiWhatsappFill className='contact__option-icon'/> 
+            <h4>Whatsapp</h4>
             <h5>(11) 99434-1245</h5>
           </article>
           <article className='contact__option'>
-            <h4><BsTelegram /> Telegram</h4>
+            <BsTelegram className='contact__option-icon'/> 
+            <h4>Telegram</h4>
             <h5>marcioreissantos</h5>
           </article>
         </div>
