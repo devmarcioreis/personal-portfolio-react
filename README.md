@@ -1,4 +1,7 @@
 # Getting Started with Create React App
+https://devmarcioreis.github.io/personal-portfolio-react/
+
+![1](https://user-images.githubusercontent.com/107413382/193952085-448ac883-424c-403d-a937-dbbe52ef58f5.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -41,7 +44,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-![1](https://user-images.githubusercontent.com/107413382/193952085-448ac883-424c-403d-a937-dbbe52ef58f5.jpg)
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
